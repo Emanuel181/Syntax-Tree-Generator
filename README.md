@@ -1,4 +1,4 @@
-# Tema1_LC.py
+# Tema_LC.cpp
 
 Ultima actualizare: 13.12.2021
 
