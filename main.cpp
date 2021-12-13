@@ -161,7 +161,7 @@ int main()
 //  = e echivalenta
 //  &, ^, * sunt conjunctii
 
-// [EXEMPLE]A
+// [EXEMPLE]
 
 // (((P=Q)/S)~T)
 // ((P=Q)&((!Q)&(!P)))
