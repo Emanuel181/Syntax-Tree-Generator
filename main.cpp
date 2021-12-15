@@ -19,7 +19,7 @@ void adauga_st(nod*& poz, char val)
 	nod* nou = new nod();
 
 	nou->st = nou->dr = NULL;
-	nou->val= '?';
+	nou->val = '?';
 	nou->parinte = poz;
 
 	poz->st = nou;
@@ -56,6 +56,25 @@ void printBT(const std::string& prefix, const nod* node, bool isLeft)
 		printBT(prefix + (isLeft ? " |   " : "     "), node->dr, false);
 	}
 }
+
+/* Given a binary tree, print its nodes in preorder*/
+void printPreorder(struct nod* node)
+{
+	if (node == NULL)
+		return;
+
+	/* first print data of node */
+	cout << node->val << " ";
+
+	/* then recur on left subtree */
+	printPreorder(node->st);
+
+	/* now recur on right subtree */
+	printPreorder(node->dr);
+}
+
+
+
 
 
 // Crearea radacinii
@@ -130,7 +149,7 @@ int main()
 		// in care se indeplineste conditia ca dupa paranteza deschisa sa urmeze atom
 		if (p[i] >= 'A' && p[i] <= 'Z')
 		{
-			poz->val= p[i];
+			poz->val = p[i];
 			// Daca introduc un literal, urc in sus
 			poz = poz->parinte;
 			cout << "Pozitia " << "[ " << i << " ] : " << p[i] << endl << endl;
@@ -176,6 +195,12 @@ int main()
 
 	cout << endl << endl;
 
+	cout << "Lista de ordine: "; printPreorder(radacina);
+	
+	cout << endl << endl;
+
+
+
 	return 0;
 }
 
@@ -191,16 +216,14 @@ int main()
 
 // [EXEMPLE]
 
-/* 
-
+/*
  (((P=Q)/S)~T)
  ((P=Q)&((!Q)&(!P)))
- ((P=Q)/((!Q)|P))
+ ((P=Q)/((!Q)/P))
  ((P~Q)~((Q~S)~((P/Q)~R)))
  ((!(P~Q))=((P/Q)^((!P)~Q)))
  ((P=Q)=(!(P~(!Q))))
  ((P=Q)=(!(P~(!Q))))
  ((!(P~Q))=((P/R)^((!P)~Q)))
  ((P~Q)~((Q~S)~((P/Q)~R)))
-
  */
