@@ -31,9 +31,10 @@ In analiza propozitiei nu trebuie sa existe spatii intre elemente, de asemena, v
       ((P⇔Q)∧((¬Q)∧(¬P))) devine ((P=Q)&((!Q)&(!P)))
       ((P⇔Q)∨((¬Q)∨P)) devine ((P=Q)/((!Q)/P))
       
-      ![Screenshot 2021-12-18 184416](https://user-images.githubusercontent.com/92999481/146649043-75d01c9c-7004-4bc8-936b-fb05f8552b36.png)
-      ![Screenshot 2021-12-18 184440](https://user-images.githubusercontent.com/92999481/146649055-b72e27cc-c352-4fd8-ac2b-7d2441c8e703.png)
-      ![Screenshot 2021-12-18 184531](https://user-images.githubusercontent.com/92999481/146649059-6146a2a3-1f6b-418f-a0ba-2d1f56d015a8.png)
+   ![Screenshot 2021-12-18 184416](https://user-images.githubusercontent.com/92999481/146649043-75d01c9c-7004-4bc8-936b-fb05f8552b36.png)
+   ![2](https://user-images.githubusercontent.com/92999481/146649142-ac6d1c03-a1ee-4cc8-992d-01a389660d69.png)
+   ![3](https://user-images.githubusercontent.com/92999481/146649159-3724df66-dad4-414c-b079-fdc6cbdc0252.png)
+
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -44,6 +45,5 @@ Grupa 1, subgrupa 2
 Facultatea de Matematica - Informatica, anul I
 
 Prof: Adrian Craciun
-
 
 Prof. seminar: Alexandra Fortis
