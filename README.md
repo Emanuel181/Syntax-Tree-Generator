@@ -25,7 +25,7 @@ In analiza propozitiei nu trebuie sa existe spatii intre elemente, de asemena, v
  *Nefolosirea conventiilor duce la eroare*
 
 #### [ EXEMPLE ]
-      ![Screenshot 2021-12-18 184531](https://user-images.githubusercontent.com/92999481/146648945-fa10927c-d75a-4816-bfe6-4d861a9ab149.png)
+      Screenshot 2021-12-18 184531.png
 
       (((P⇔Q)∨S)⇒T) devine (((P=Q)/S)~T)
       ((P⇔Q)∧((¬Q)∧(¬P))) devine ((P=Q)&((!Q)&(!P)))
