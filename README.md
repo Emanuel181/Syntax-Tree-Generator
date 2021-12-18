@@ -1,19 +1,21 @@
-# Tema_LC.cpp
+#### Acest progra ia ca argument o propozitie si retuneaza sintaxa abstracta a acesteia folosind arborii binari
 
-Ultima actualizare: 13.12.2021
+#### Ultima actualizare: 13.12.2021
 
 
-[ REPOZITORIU ]
+#### [ REPOZITORIU ]
 
-Github
+  Github
 
-[ CUM SE RULEAZA CODUL ]
+#### [ CUM SE RULEAZA CODUL ]
 
-Programul se va descarca inainte apasand pe butonul verde "Code" si selectand "Downlad as ZIP" sau se poate copia direct codul sursa intr-un IDE sau editor de text.
+Programul se va descarca inainte apasand pe butonul verde "Code" si selectand "Downlad as ZIP" sau se poate copia direct codul sursa, din fisierul **main.py** intr-un IDE(cum ar fi **Visual Studio 2019**) sau editor de text(cum ar fi **Visual Studio Code**; in cazul acesta, va fi nevoie instalarea de extensii ce permit rularea de cod C++).
 
-Programul se poate rula in Microsoft Visual Studio 2019 sau VsCode sau in orice editor de text daca extensia pentru C++ este instalata.
+#### Cerinte ale input-ului
 
-In analiza propozitiei nu trebuie sa existe spatii intre elemente
+In analiza propozitiei nu trebuie sa existe spatii intre elemente, de asemena, vor trebui folosite conventii pentru conectorii logice, deoarece encoding-ul din C++ nu recunoaste decat o gama mica de caractere.
+  
+  ##### Conventii
 
 [ EXEMPLE ]
 
