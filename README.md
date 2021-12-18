@@ -15,21 +15,22 @@ Programul se va descarca inainte apasand pe butonul verde "Code" si selectand "D
 
 In analiza propozitiei nu trebuie sa existe spatii intre elemente, de asemena, vor trebui folosite conventii pentru conectorii logice, deoarece encoding-ul din C++ nu recunoaste decat o gama mica de caractere.
   
-  ##### Conventii
+  ##### Conventii din cauza codifiarii in C++ a caracterelor
+     ! e negatie
+     / e disjunctie
+     ~ e implicatie
+     = e echivalenta
+     &, ^, * sunt conjunctii
 
-[ EXEMPLE ]
+ *Nefolosirea conventiilor duce la eroare*
 
-[Comming soon...]
+#### [ EXEMPLE ]
+      
+      (((P⇔Q)∨S)⇒T) devine (((P=Q)/S)~T)
+      ((P⇔Q)∧((¬Q)∧(¬P))) devine ((P=Q)&((!Q)&(!P)))
+      ((P⇔Q)∨((¬Q)∨P)) devine ((P=Q)/((!Q)/P))
+      
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-Programul determina sintaxa abstracta a unei propozitii.
-
-Accesul la codul sursa se poate face direct din repozitoriu dand clik pe fisierul "main.cpp" sau dupa descarcarea repozitorului.
-
-[Comming soon.]
-
-Eventuale imbunatatiri: Interfata grafica, tabele de valori de adevar, hostarea unei pagini web care sa ruleze acest cod pentru a putea fi folosit si de altii, imbunatatirea codului per total.
-
 
 [ Rusu Emanuel ]
 
