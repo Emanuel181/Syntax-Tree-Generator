@@ -17,8 +17,7 @@ In analiza propozitiei nu trebuie sa existe spatii intre elemente, de asemena, v
   
   ##### Conventii din cauza codifiarii in C++ a caracterelor
      ! e negatie
-     / e disjunctie![146648999-32af3456-9203-4f91-871c-6da7fd0db944](https://user-images.githubusercontent.com/92999481/146649026-795afefd-e8e3-4e8e-8708-d0cb16dc88e6.png)
-
+     / e disjunctie
      ~ e implicatie
      = e echivalenta
      &, ^, * sunt conjunctii
