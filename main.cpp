@@ -11,7 +11,9 @@ struct nod
 	char val;
 };
 
+
 nod* radacina = NULL;
+
 
 // Adaugare separata a nodului din stanga
 void adauga_st(nod*& poz, char val)
@@ -25,6 +27,8 @@ void adauga_st(nod*& poz, char val)
 	poz->st = nou;
 
 }
+
+
 // Adaugare separata a nodului din dreapta
 void adauga_dr(nod*& poz, char val)
 {
@@ -57,24 +61,19 @@ void printBT(const std::string& prefix, const nod* node, bool isLeft)
 	}
 }
 
-/* Given a binary tree, print its nodes in preorder*/
+
+// Afisare lista de ordine
 void printPreorder(struct nod* node)
 {
 	if (node == NULL)
 		return;
 
-	/* first print data of node */
 	cout << node->val << " ";
 
-	/* then recur on left subtree */
 	printPreorder(node->st);
 
-	/* now recur on right subtree */
 	printPreorder(node->dr);
 }
-
-
-
 
 
 // Crearea radacinii
