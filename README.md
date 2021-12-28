@@ -13,7 +13,7 @@ Programul se va descarca inainte apasand pe butonul verde "Code" si selectand "D
 
 #### Cerinte ale input-ului
 
-In analiza propozitiei nu trebuie sa existe spatii intre elemente, de asemena, vor trebui folosite conventii pentru conectorii logici, deoarece encoding-ul din C++ nu recunoaste decat o gama mica de caractere.
+In analiza propozitiei nu trebuie sa existe spatii intre elemente, de asemena, vor trebui folosite conventii pentru conectorii logici, deoarece encoding-ul din C++ nu recunoaste simboluri de tip unicode.
   
   ##### Conventii din cauza codifiarii in C++ a caracterelor
      ! e negatie
